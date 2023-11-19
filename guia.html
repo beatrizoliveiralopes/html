@@ -3,30 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilizacao.css">
     <title>RECIFE</title>
 </head>
 <body>
-    <h3>Pontos Turísticos</h3>
-    <ul>
-        <li><b>Marco Zero</b></li><br>
-        <img src="marco_zero.jpg" width="350px" height="250" alt="Marco zero"><br><br>
-        <li><b>Oficina de Cerâmica Francisco Brennand</b></li><br>
-        <img src="oficina-brennand.jpg" width="350px" height="250" alt="Oficina de Cerâmica"><br><br>
-        <li><b>Forte das Cinco Pontas</b></li><br>
-        <img src="forte.jpg" width="350px" height="250" alt="Forte"><br><br>
-        <li><b>Praia de Boa Viagem</b></li><br>
-        <img src="praia.jpg" width="350px" height="250" alt="Praia"><br><br>
-    </ul>
-    <footer>
-        <p>&copy; 2023 - Todos os direitos reservados</p>
-        <p>Entre em contato pelo e-mail: recife@prefeitura.com</p>
-        <nav>
+    <header class="menu">
+        <nav class="menu">
+            <a href="index.html">Página Inicial</a>
+            <a href="guia.html">Pontos Turísticos</a>
+        </nav>
+    </header>
+    <p><h2>Pontos Turísticos</h2></p>
+    <div>
+        <ul>
+            <li class="descricaoImgs"><b>Marco Zero</b></li><br>
+            <img class="imgs" src="marco_zero.jpg" width="350px" height="250" alt="Marco zero"><br><br>
+            <li class="descricaoImgs"><b>Oficina de Cerâmica Francisco Brennand</b></li><br>
+            <img class="imgs" src="oficina-brennand.jpg" width="350px" height="250" alt="Oficina de Cerâmica"><br><br>
+            <li class="descricaoImgs"><b>Forte das Cinco Pontas</b></li><br>
+            <img class="imgs" src="forte.jpg" width="350px" height="250" alt="Forte"><br><br>
+            <li class="descricaoImgs"><b>Praia de Boa Viagem</b></li><br>
+            <img class="imgs" src="praia.jpg" width="350px" height="250" alt="Praia"><br><br>
+        </ul>
+    </div>
+
+    <footer>        
+        <nav class="lista">
             <ul>
                 <li><a href="#">Termos de uso</a></li>
                 <li><a href="#">Política de privacidade</a></li>
                 <li><a href="#">Sobre nós</a></li>
             </ul>
         </nav>
+        <br>
+        <div class="tira">
+            <p><b>&copy; 2023 - Todos os direitos reservados</b></p>
+        </div>
     </footer>
 </body>
 </html>
